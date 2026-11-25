@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rishabh Sadaphal | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- START: NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">coderishabh08<span>.</span></a>
+
+      <button class="menu-btn" onclick="toggleMenu()" aria-label="Toggle Menu">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  <!-- END: NAVBAR -->
+
+  <!-- START: HERO -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Rishabh Sadaphal</span></h1>
+        <p class="hero-role">College Student &amp; Aspiring Web Developer</p>
+        <p class="hero-desc">
+          I enjoy building clean, responsive websites while learning the fundamentals of web development and programming.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="./Images/Rishabh.jpg"
+          alt="Rishabh Sadaphal"
+        >
+      </div>
+    </div>
+  </section>
+  <!-- END: HERO -->
+
+  <!-- START: ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="about-bio">
+        I am a First Year CSE student passionate about Technology and Computer Science. Currently, I am focused on strengthening my skills in Full Stack Development and core programming concepts by creating simple, practical projects.
+      </p>
+
+      <div class="info-row">
+        <div class="info-box">
+          <h3>College / Degree</h3>
+          <p>B.Tech in Computer Science at NIT Bhopal</p>
+        </div>
+        <div class="info-box">
+          <h3>Location</h3>
+          <p>India</p>
+        </div>
+        <div class="info-box">
+          <h3>Interests</h3>
+          <p>WebDev, Coding &amp; Problem Solving</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: ABOUT -->
+
+  <!-- START: SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-subtitle">Technologies and tools I am learning and using.</p>
+
+      <div class="skills-group">
+        <h3 class="skills-category">Frontend</h3>
+        <div class="skills-list">
+          <span class="skill-pill">HTML5</span>
+          <span class="skill-pill">CSS3</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">React</span>
+          <span class="skill-pill">React Native</span>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <h3 class="skills-category">Programming</h3>
+        <div class="skills-list">
+          <span class="skill-pill">C++</span>
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">C</span>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <h3 class="skills-category">Tools</h3>
+        <div class="skills-list">
+          <span class="skill-pill">Git &amp; GitHub</span>
+          <span class="skill-pill">VS Code</span>
+          <span class="skill-pill">Node.js</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: SKILLS -->
+
+  <!-- START: PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">A few beginner projects I have built to practice my skills.</p>
+
+      <div class="projects-row">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-img-box">
+            <img
+              src="./Images/tasks_manager.jpg"
+              alt="Tasks Manager App"
+            >
+          </div>
+          <div class="project-body">
+            <h3>Tasks Manager App</h3>
+            <p>A CRUD Application. Another Functional App built using React Native and Expo Router. It Works along with Database Integration. </p>
+            <div class="project-tech">HTML5 &middot; CSS3 &middot; JavaScript &middot; React Native &middot; React &middot; JSX &middot; Expo-Router  </div>
+            <div class="project-links">
+              <a href="https://github.com/CodeRishabh08/tasks-manager" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-img-box">
+            <img
+              src="./Images/calculator.jpg"
+              alt="Calculator App"
+            >
+          </div>
+          <div class="project-body">
+            <h3>Simple Calculator App</h3>
+            <p>A Calculator able to perform simple Arithmetic Operations, Built Using React Native.</p>
+            <div class="project-tech">HTML5 &middot; CSS3 &middot; JavaScript &middot; React-Native &middot; React &middot; JSX</div>
+            <div class="project-links">
+              <a href="https://github.com/CodeRishabh08/simple-calculator-app" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-img-box">
+            <img
+              src="./Images/3_mini_games.JPG"
+              alt="Mini Games Website"
+            >
+          </div>
+          <div class="project-body">
+            <h3>Mini Games Website</h3>
+            <p>A Collection of Three Fun Mini Games Made using HTML5 Canvas and Javascript. (Compatible for PC Screen)</p>
+            <div class="project-tech">HTML5 &middot; JavaScript</div>
+            <div class="project-links">
+              <a href="https://coderishabh08.github.io/Games" target="_blank">Live Demo</a>
+              <a href="https://github.com/CodeRishabh08/Games" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: PROJECTS -->
+
+  <!-- START: EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <p class="section-subtitle">My academic background.</p>
+
+      <div class="edu-card">
+        <div class="edu-header">
+          <h3>B.Tech in Computer Science</h3>
+          <span class="edu-year">August 2026 – Present</span>
+        </div>
+        <p class="edu-school">NIT Bhopal</p>
+        <p>Learning core subjects including Data Structures and Programming Fundamentals.</p>
+      </div>
+
+      <div class="edu-card">
+        <div class="edu-header">
+          <h3>Higher Secondary (12th Grade)</h3>
+          <span class="edu-year">2024 – 2026</span>
+        </div>
+        <p class="edu-school">Madhya Pradesh Board of Secondary Education</p>
+        <p>Completed senior secondary education in Science stream with Physics, Chemistry and Maths</p>
+      </div>
+    </div>
+  </section>
+  <!-- END: EDUCATION -->
+
+  <!-- START: ACHIEVEMENTS -->
+  <section id="achievements">
+    <div class="container">
+      <h2 class="section-title">Achievements</h2>
+      <p class="section-subtitle">Certificates and milestones so far.</p>
+
+      <div class="achievements-card">
+        <ul>
+          <li>Built and deployed new Portfolio website using GitHub Pages.</li>
+          <li>Built a Cafe Management System using OOPs in Python.</li>
+          <li>Built a CRUD app (Tasks Manager) using React Native with Database Integration.</li>
+          <li>Learned The Basics of React Native and Built a Calculator App.</li>
+          <li>Learned React and Built a 'Chef Claude' Project Involving APIs.</li>
+          <li>Won Second Price at TechTrack 3.0 ML Competition held at NIT Bhopal on EV Day.</li>
+          <li>Loved working with JavaScript and Built 3 Mini Games using HTML5 Canvas and JS.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- END: ACHIEVEMENTS -->
+
+  <!-- START: CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <h2 class="section-title">Contact Me</h2>
+        <p>Feel free to reach out for collaborations or just to say hi!</p>
+        <a href="mailto:rishabhsadaphal08@gmail.com" class="btn btn-primary">Email Me</a>
+
+        <div class="contact-links">
+          <a href="https://github.com/coderishabh08" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: CONTACT -->
+
+  <!-- START: FOOTER -->
+  <footer>
+    <p>&copy; 2026 Rishabh Sadaphal.</p>
+  </footer>
+  <!-- END: FOOTER -->
+
+  <!-- Simple JS to open/close the mobile navbar menu -->
+  <script>
+    function toggleMenu() {
+      var nav = document.getElementById("navLinks");
+      nav.classList.toggle("active");
+    }
+  </script>
+
+</body>
+</html>
